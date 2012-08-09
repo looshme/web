@@ -1,0 +1,111 @@
+body {
+  background: #f4f4f4;
+  font-family:Verdana;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#tabs {
+	height:40px;
+	background:url(http://img195.imageshack.us/img195/2508/subheader02.png);
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #666;
+	margin-bottom:1em; /*margin between menu and rest of page*/
+	overflow:hidden;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:0px 20px 0 0px;
+	list-style:none;
+	
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0px 20px 0 0px;
+	}
+
+#tabs a {
+	float:left;
+	background:url("media/left.png") no-repeat left top;
+	margin:0;
+	padding:12px 0 10px 10px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("media/right.png") no-repeat right top;
+	padding:0px 10px 0px 0px;
+	margin-right:2px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+
+
+#header {
+	margin-left:20px #FFFFFF;
+	width:980px;
+	height:70px;
+	background:url(http://img404.imageshack.us/img404/4960/headerlogo02.png) no-repeat;
+}
+
+#wrap {
+	margin:10px;
+	width: 980px;
+	margin: 0 auto;
+	height: 600px;
+	box-shadow: #000 2px 2px 15px;
+  -moz-box-shadow: #000 2px 2px 15px;
+  -webkit-box-shadow: #000 2px 2px 15px;
+
+	
+}
+
+#body_content, #side_body_content {
+  padding:1em;
+  float:left;
+  width: 30%;
+  background: white;
+  color: #333;
+}
+
+#menu ul {
+  width:980;
+  height:70;
+  list-style: none;
+  padding: 0px;
+  li {
+    float: left;
+    margin-right: 10px;
+    a {
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+    &.selected a, a:hover {
+      background: #CCC;
+    }
+    }
+   
+}

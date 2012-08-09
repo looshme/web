@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real Security IT International | Belgrade</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="wrap">
+	
+<div id="header">
+</div>
+<div id="tabs">
+  <ul>
+    <li></li>
+    <li><a href="#"><span>Menu 1</span></a></li>
+    <li><a href="#"><span>Menu 2</span></a></li>
+    <li><a href="#"><span>Menu 3</span></a></li>
+    <li><a href="#"><span>Menu 4</span></a></li>
+    <li><a href="#"><span>Menu 5</span></a></li>
+    <li><a href="#"><span>Menu 6</span></a></li>
+  </ul>
+</div>
+<div id="main">
+<%= yield %>
+</div>
+</div>
+</body>
+</html>
